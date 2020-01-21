@@ -4,13 +4,8 @@
     /* hardcoded purely for codepen example */
     height: 70.5mm;
     /* hardcoded purely for codepen example */
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas:
-      "name name photo"
-      "work work about"
-      "work work education"
-      "community references skills";
-    box-shadow           : 0 5px 9px 0 rgba(0, 0, 0, 0.35);
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows   : 1fr 1fr 1fr 1fr;
     grid-gap             : 5px;
 }
 
