@@ -1,0 +1,31 @@
+p, header, nav, ul, li, main, footer, figure, figcaption, body, html, h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+   background-color: black; 
+}
+
+body {font-family: 'Fira Sans', sans-serif;
+    font-size: 1em;
+    width: 1366px;
+    background-color: #e8dada;
+    margin: 0 auto;
+    padding: 0;
+    
+
+}
+
+header {
+    height: 250px;
+    background-color: #e8dada;
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    text-align: center;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+}
