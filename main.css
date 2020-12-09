@@ -4,7 +4,7 @@ p, header, nav, ul, li, main, footer, figure, figcaption, body, html, h1, h2 {
 }
 
 html {
-   background-color: #366b6d; 
+   background-color: #e8dada; 
 }
 
 body {font-family: 'Fira Sans', sans-serif;
@@ -28,4 +28,7 @@ header {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif;
+}
+ footer {
+     background-color: #366b6d;
 }
