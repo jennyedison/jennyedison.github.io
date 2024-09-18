@@ -9,6 +9,7 @@ html {
 
 body {font-family: 'Fira Sans', sans-serif;
     font-size: 1em;
+    text-align: right;
     width: 1366px;
     background-color: #e8dada;
     margin: 0 auto;
@@ -22,41 +23,44 @@ header {
     background-color: #e8dada;
     font-family: 'Playfair Display', serif;
     font-size: 3em;
-    text-align: center;
+    text-align: right;
     line-height: 250px;
     
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', serif; text-align: right;
 }
 
 main {
     min-height: 400px;
+    text-align: right;
 }
 
 nav {
     height: 100px;
     background-color: #537e5a;
     line-height: 100px;
-    text-align: center;
+    text-align: right;
 }
 
 nav ul {
     list-style-type: none;
+    text-align: right;
     width: 440px;
     margin: 0 auto;
 }
 
 nav ul::after {
     content: " ";
+    text-align: right;
     display: block;
     clear: both;
 }
 
 nav ul li {
     float: left;
-    text-align: center;
+    text-align: right;
     width: 110px;
     
 }
@@ -65,16 +69,19 @@ nav ul li a {
     display: block;
     width: 100px;
     text-decoration: none;
+    text-align: right;
     margin:0 5px;
     color: #e8dada;
 }
 
 /*nav ul li a.lastlink {
     margin-right: 0;
+text-align: right;
 }*/
 
 nav ul li a.firstlink {
     margin-left: 10;
+    text-align: right;
 }
 
 /* this section for work.html */
@@ -86,12 +93,14 @@ main#workimages figure {
 main#workimages figure img {
     margin-right: 15px;
     width: 325px;
+    align: right;
 }
 
 main#workimages figure figcaption {
     clear: both;
     color: black;
     margin-top: .5em;
+    text-align: right;
     font-size: 1.5em;
 }
 
@@ -99,6 +108,7 @@ main#workimages figure figcaption {
     text-decoration: none;
     font-family: 'Playfair Display';
     font-size: 3em;
+    text-align: right;
     color: black;
     display: inline-block;
     margin-top: .5em;
