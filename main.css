@@ -1,6 +1,7 @@
 p, header, nav, ul, li, main, footer, figure, figcaption, body, html, h1, h2 {
     margin: 0;
     padding: 0;
+    text-align: right;
 }
 
 html {
