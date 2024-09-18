@@ -43,6 +43,7 @@ nav {
     background-color: #537e5a;
     line-height: 100px;
     text-align: right;
+    align: right;
 }
 
 nav ul {
@@ -50,6 +51,7 @@ nav ul {
     text-align: right;
     width: 440px;
     margin: 0 auto;
+    align: right;
 }
 
 nav ul::after {
@@ -57,12 +59,14 @@ nav ul::after {
     text-align: right;
     display: block;
     clear: both;
+    align: right;
 }
 
 nav ul li {
     float: left;
     text-align: right;
     width: 110px;
+    align: right;
     
 }
 
@@ -71,18 +75,21 @@ nav ul li a {
     width: 100px;
     text-decoration: none;
     text-align: right;
+    align: right;
     margin:0 5px;
     color: #e8dada;
 }
 
 /*nav ul li a.lastlink {
     margin-right: 0;
-text-align: right;
+    text-align: right;
+    align: right;
 }*/
 
 nav ul li a.firstlink {
     margin-left: 10;
     text-align: right;
+    align: right;
 }
 
 /* this section for work.html */
